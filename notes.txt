@@ -1,0 +1,22 @@
+java is static written language
+
+number iteration
+for loops--frequently used
+
+reading file-require the n number of counts
+while loops
+
+
+jdk--
+java development kit
+*upper layer of the java
+
+
+jvm--
+java virtual machine-is going to rum my code 
+
+jre--
+java runtime environment--provide the extra code
+jvm is part of jre
+
+
