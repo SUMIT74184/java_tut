@@ -21,7 +21,7 @@ class Human{
 
 }
 
-public class Encapsulation {
+public class  Encapsulation {
     public static void main(String []a){
         Human obj=new Human();
 //        System.out.println(obj.getAge());

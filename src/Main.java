@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        final int num=90;
 
      String name="sumit";
         //System.out.println(name);
