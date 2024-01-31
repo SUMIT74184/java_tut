@@ -1,5 +1,5 @@
 class Mobile{
-//varicable overhere are the instance variable
+//variable overhere are the instance variable
     //means they are globally shared
    static String name;
     String brand;

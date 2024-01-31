@@ -32,8 +32,9 @@ public class down_upcasting {
         //downcasting here we have the reference of Class MAC
         //BUT the object is of class computer
         //child reference and parents object
-//        Mac mv=(Mac)cp;
-//        mv.show2();
+        Mac mv=(Mac)cp;
+        mv.show2();
+        mv.show1();
 
     }
 }
