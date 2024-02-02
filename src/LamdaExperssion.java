@@ -1,16 +1,16 @@
-
-
 interface MY{
-    void show(int i, int j);
+    int show(int i, int j);
 }
 
 public class LamdaExperssion {
     public static void main(String []a){
         MY obj =( i, k)->
         {
-            System.out.println("in :"+ i+" "+ k);
+
+            return i+k;
         };
-        obj.show(3,6);
+     int result=obj.show(3,6);
+     System.out.println(result);
     }
 
 }

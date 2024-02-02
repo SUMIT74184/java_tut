@@ -8,6 +8,7 @@ public class AnonymousClass {
 
         AN obj = new AN() //no semicolon-termination
         {//anonymous class implementation
+
             public void show() {
                 System.out.println("inside the anonymous class");
             }
@@ -15,20 +16,6 @@ public class AnonymousClass {
 
         obj.show();
         //our object is calling the method of the anonymous class
-
-
-        //implementing the ano class for interface
-//        NEWINF on=new NEWINF() {
-//            @Override
-//            public void newmethod() {
-//
-//            }
-//
-//            @Override
-//            public void newMethod() {
-//
-//            }
-//        };
     }
 }
 

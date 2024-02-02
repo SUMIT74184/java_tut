@@ -3,6 +3,7 @@ abstract class Car{//abstract class
     public abstract void drive();
 
     public void PlayMusic(){
+
         System.out.println("music is playing ....");
     }
 }
@@ -12,6 +13,7 @@ abstract class Car{//abstract class
 
 class WagonR extends Car{//concrete class
     public void drive(){//it is necessary to define this method or else it will throw an error
+
         System.out.println("driving...");
     }
 }

@@ -4,7 +4,7 @@
 //class-interface->implements
 interface A1{
 //    variable in the interfaces are static and final by default so we have to assign the value
-    void carSpeed();
+    void carSpeed();//we cannot create the object of an interface in program
     void CarEngine();
 }
 
@@ -13,6 +13,7 @@ interface A1{
 class Operating implements A1{
     @Override
     public void carSpeed() {
+
         System.out.print("the speed is high....");
     }
 

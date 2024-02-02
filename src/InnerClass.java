@@ -8,6 +8,7 @@ class Parent{
 
     class InTo{
         public void config(){
+
             System.out.println("executing the inside operation");
         }
 
@@ -18,6 +19,9 @@ public class InnerClass {
     public static void main(String []a){
         Parent obj =new Parent();//normal parent class
         obj.show();
+
+        Parent.InTo ob=obj.new InTo();
+        ob.config();
 
 
     }

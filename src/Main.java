@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         final int num=90;
@@ -17,6 +20,10 @@ public class Main {
         //this will save the storage
 
         System.out.println(name.charAt(1));/* provide me the value present at the particular index */
+
+
+        List<Integer>nums= Arrays.asList(4,5,6,7,91,1);
+        nums.forEach(n->System.out.println(n));
     }
     
     
